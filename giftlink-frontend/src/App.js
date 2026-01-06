@@ -6,6 +6,8 @@ import LoginPage from './components/LoginPage/LoginPage';
 import RegisterPage from './components/RegisterPage/RegisterPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Profile from './components/Profile/Profile';
+<Route path="/app/profile" element={<Profile/>} />
 import SearchPage from './components/SearchPage/SearchPage';
 <Route path="/app/search" element={<SearchPage/>} />
 import Navbar from './components/Navbar/Navbar';
